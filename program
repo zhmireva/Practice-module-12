@@ -6,3 +6,6 @@ vtb = 4.28
 sber = 4.0
 deposit = [int(tkb*money), int(ckb*money), int(vtb*money), int(sber*money)]
 print(deposit)
+
+max_number = max(deposit)
+print("Максимальная сумма,которую вы можете заработать - ",max_number)
